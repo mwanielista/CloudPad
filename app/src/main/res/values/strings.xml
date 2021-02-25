@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">CloudPad</string>
+    <string name="title_activity_main">CloudPad</string>
+    <string name="title_activity_about_user">Your profile info</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="info">Profile info</string>
+    <string name="logout">Logout</string>
+    <string name="register">Register</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="createAccount">Create new account</string>
+    <string name="login">Login</string>
+    <string name="passwordNotMatch">Passwords do not match</string>
+    <string name="or">OR</string>
+    <string name="describe">
+        This application is a simple notepad. You create your individual account and write your notes.
+        Everything is synced by realtime database.
+    </string>
+    <string name="appIdea">App idea?</string>
+    <string name="greatDay">Have a great day! :)</string>
+    <string name="areYouSureDeleteNotes">Are you sure to DELETE all your notes?</string>
+    <string name="areYouSureDeleteAccount">Are you sure to delete Your account?</string>
+    <string name="confirmEmail">Confirm your email</string>
+    <string name="confirmPassword">Confirm your password</string>
+    <string name="deleteAccount">Delete your account</string>
+    <string name="deleteSuccess">Your account was succesfully deleted.</string>
+    <string name="deleteAllnotes">Delete all notes</string>
+    <string name="wrongCredentails">Wrong credentails, try again</string>
+    <string name="totalCountOfNotes">Total count of your notes:</string>
+    <string name="currentCountOfNotes">Current count of notes:</string>
+    <string name="confirmDeleteAccountNote">
+        By clicking the "Delete Account" button you are aware that all your data will be completely deleted from our servers.
+    </string>
+    <string name="userAgree">
+        By clicking the "Register" button you agree with our terms of service.
+    </string>
+
+    <string name="typeTitle">Type your title here...</string>
+    <string name="typeDesc">Type your description here...</string>
+    <string name="deleteNote">Delete Note</string>
+    <string name="saveNote">Save edited note</string>
+    <string name="createNote">Create note</string>
+</resources>
