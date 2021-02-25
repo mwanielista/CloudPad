@@ -44,7 +44,7 @@ public class DeleteAccount extends AppCompatActivity {
                 FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
                 final FirebaseUser user = firebaseAuth.getCurrentUser();
                 final String currentUID = getIntent().getStringExtra("uid");
-                System.out.println("uid: " + currentUID);
+
 
                 AuthCredential credential = EmailAuthProvider
                         .getCredential(email, password);

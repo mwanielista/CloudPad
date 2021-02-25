@@ -78,7 +78,6 @@ public class AboutUser extends AppCompatActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         switch(i){
                             case DialogInterface.BUTTON_POSITIVE:
-                                Toast.makeText(AboutUser.this, "dupa jas :)", Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent(AboutUser.this, DeleteAccount.class);
                                 intent.putExtra("uid", currentUID);
                                 startActivity(intent);
